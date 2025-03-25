@@ -15,5 +15,7 @@ It integrates **LangChain**, **OpenAI**, and **DuckDuckGo API** for intelligent 
 
 1. **Clone the repository**  
    ```bash
-   git clone <your-github-repo-link>
-   cd <stock_ai_agent>
+  git clone <[GitHub Repo Link](https://github.com/Vaibhav-shukla-11/stock_analysis.git)>
+cd <stock_ai_agent>
+pip install -r requirements.txt
+uvicorn src.api:app --reload
